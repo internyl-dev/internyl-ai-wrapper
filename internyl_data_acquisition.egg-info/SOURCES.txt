@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+cli.py
+pyproject.toml
+requirements.txt
+internyl_data_acquisition.egg-info/PKG-INFO
+internyl_data_acquisition.egg-info/SOURCES.txt
+internyl_data_acquisition.egg-info/dependency_links.txt
+internyl_data_acquisition.egg-info/entry_points.txt
+internyl_data_acquisition.egg-info/requires.txt
+internyl_data_acquisition.egg-info/top_level.txt
+src/__init__.py
+src/main.py

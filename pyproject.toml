@@ -10,5 +10,10 @@ dependencies = { file = ["requirements.txt"] }
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
+[tool.setuptools]
+# This tells python that cli.py and the src folder are part of the project
+packages = ["src"]
+py-modules = ["cli"]
+
 [project.scripts]
-ida = "src.cli:main"
+ida = "cli:main"
