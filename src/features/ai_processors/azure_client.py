@@ -10,6 +10,6 @@ azure_chat_openai = AzureChatOpenAI(
     api_version="2024-05-01-preview",
     temperature=0,
     max_tokens=None,
-    timeout=None,
+    timeout=120,
     max_retries=2
 )

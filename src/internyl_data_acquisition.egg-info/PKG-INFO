@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: internyl-data-acquisition
+Version: 1.0
+License-File: LICENSE.md
+Requires-Dist: beautifulsoup4==4.13.4
+Requires-Dist: firebase_admin==7.1.0
+Requires-Dist: openai==1.97.1
+Requires-Dist: playwright==1.54.0
+Requires-Dist: python-dotenv==1.1.1
+Requires-Dist: Requests==2.32.4
+Requires-Dist: langchain
+Requires-Dist: langchain-openai
+Requires-Dist: pydantic
+Requires-Dist: inflect
+Dynamic: license-file

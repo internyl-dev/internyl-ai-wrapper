@@ -146,11 +146,6 @@ class Refresher:
 
 if __name__ == "__main__":
     r = Refresher()
-    """
-    print(r._get_latest_entry("programs-display", "https:\\\\precollegesummer.rutgers.edu\\scholars"))
-    print(r._get_latest_entry("programs-display", "https:\\\\opportunitynetwork.org\\apply\\"))
-    print(r._get_latest_entry("programs-display", "https:\\\\sumac.spcs.stanford.edu\\sumac-online-program"))
-    """
     links = list(r.get_all_latest_entries("programs-display").keys())[0:-1]
     for link in links:
         r.run(link)

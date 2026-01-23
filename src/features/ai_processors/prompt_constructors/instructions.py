@@ -161,7 +161,7 @@ Expected output format:
 }
 
 Fill:
-- "virtual": true if clearly online, false if clearly in-person, "hybrid" if both, "both available" if both are available, "not provided" if unclear.
+- "virtual": true if clearly online, false if clearly in-person, "both available" if both are available, "not provided" if unclear.
 - "state", "city", "address": Use only if directly stated.
 
 Include only the main residential/instructional site — ignore travel destinations or event locations.
@@ -297,8 +297,7 @@ Never derive exact duration from vague phrases like "a few weeks".
 - "virtual": Use:
   - true — if the program is explicitly online only
   - false — if explicitly in-person
-  - "hybrid" — if the program combines online and in-person in one experience
-  - "both available" — if users can choose between online or in-person
+  - "both available" — if users can choose between online or in-person or if the program is hybrid
   - "not provided" — if unclear
 - "state", "city", "address": Only fill if explicitly stated in the text.
 

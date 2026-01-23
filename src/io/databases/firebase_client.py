@@ -216,11 +216,4 @@ if __name__ == "__main__":
     #print(FirebaseClient.get_instance().get_by_id("programs-display", "0e9rDP8y6T5xNM3O2Xoj"))
     #FirebaseClient.get_instance().reindex("programs-display", "0e9rDP8y6T5xNM3O2Xoj")
     db = FirebaseClient.get_instance()
-
-    keys = db.get_all_old_entries("programs-display").keys()
-    print(keys)
-    for key in keys:
-        print(f"Moved {key}")
-        db.migrate("programs-display", "programs-history", key)
-
     db.save("demo", {"overview": {"link": "example.com"}}, "custom_id")

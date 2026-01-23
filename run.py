@@ -1,4 +1,4 @@
-
+"""
 from pprint import pp
 
 from src.main import Main
@@ -7,6 +7,7 @@ from src.io import FirebaseClient
 Pipeline = Main(log_mode=True)
 
 db: FirebaseClient = FirebaseClient.get_instance()
+"""
 """
 links = db.get_all_data("scrape-queue")
 for _id in links:
@@ -21,7 +22,8 @@ for _id in links:
     db.delete_by_id("scrape-queue", _id)
     Pipeline.clear()
 """
-
+"""
 Pipeline.run("https://aimi.stanford.edu/education/summer-research-internship")
 schema = Pipeline.schema
-db.save("demo-display", schema, True)
+db.save("demo-display", schema, set_index=True)
+"""
