@@ -139,7 +139,7 @@ class FirebaseClient:
 
     def link_in_id(self, doc_id: str, link: str) -> bool:
         ""
-        return self.get_link_from_id(doc_id) == link
+        return self.get_link_rom_id(doc_id) == link
 
     def get_latest_entry(self,  
                          link: str, 
